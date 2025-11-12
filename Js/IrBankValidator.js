@@ -8,7 +8,7 @@
 
 
 var Banks = [new Bank("603799", "بانک ملی ایران", "bank_meli"), new Bank("589210", "بانک سپه", "bank_sepah")];
-
+ 
 Banks.push(new Bank("207177", "بانک توسعه صادرات", "bank_toseh_saderat_iran"));
 Banks.push(new Bank("627648", "بانک توسعه صادرات", "bank_toseh_saderat_iran"));
 
@@ -42,6 +42,7 @@ Banks.push(new Bank("621986", "بانک سامان", "bank_saman"));
 
 
 Banks.push(new Bank("639346", "بانک سینا", "bank_sina"));
+
 
 Banks.push(new Bank("639607", "بانک سرمایه", "bank_sarmaeh"));
 
@@ -81,6 +82,8 @@ Banks.push(new Bank("636795", "بانک مرکزی", "bank_markazi"));
 Banks.push(new Bank("628157", "موسسه اعتباری توسعه", "moasseseh_tosee"));
 
 Banks.push(new Bank("505801", "موسسه اعتباری کوثر", "moasseseh_kosar"));
+
+Banks.push(new Bank("636214", "بانک آینده", "bank_ayandeh"));
 
 var imageEl, txtCard, bankName, validation;
 
